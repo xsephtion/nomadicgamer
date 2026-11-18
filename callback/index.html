@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connected · nomadicgamer</title><style>:root{color-scheme:light dark}body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:0 auto;padding:32px 16px;background:Canvas;color:CanvasText}h1{line-height:1.2}a{color:#2b7de9}code{word-break:break-all;background:#8882;padding:2px 6px;border-radius:4px}nav a{margin-right:16px}</style></head><body>
+<h1>Almost done</h1><p id="msg">Copy this page's full address from the address bar and paste it into the clipper.</p>
+<p><code id="url"></code></p>
+<script>document.getElementById('url').textContent=location.href;if(!new URLSearchParams(location.search).get('code')){document.getElementById('msg').textContent='No authorization code in this address.';}</script>
+</body></html>
